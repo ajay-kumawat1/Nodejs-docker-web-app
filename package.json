@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-docker-web-app",
+  "version": "1.0.0",
+  "description": "Nodejs web app using docker image",
+  "keywords": [
+    "Nodejs",
+    "docker"
+  ],
+  "homepage": "https://github.com/ajay-kumawat1/Nodejs-docker-web-app#readme",
+  "bugs": {
+    "url": "https://github.com/ajay-kumawat1/Nodejs-docker-web-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajay-kumawat1/Nodejs-docker-web-app.git"
+  },
+  "license": "ISC",
+  "author": "Ajay Kumawat",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
